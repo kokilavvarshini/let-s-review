@@ -1,0 +1,21 @@
+def review(list1):
+    list3 = []
+    list4 = []
+    for i in range(0,len(list1)):
+        if i % 2 == 0:
+            list3.append(list1[i])
+        else:
+            list4.append(list1[i])
+    print("".join(list3),"".join(list4))
+n = eval(input())
+y = []
+for j in range(0,n):
+    x = input()
+    y.append(list(x))
+for k in range(0,n):
+    review(y[k])
+    
+
+
+
+
